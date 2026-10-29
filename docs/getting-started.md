@@ -30,18 +30,18 @@ Select a stage from the navigation menu to see its available resources.
 
 Your business may be working through challenges from more than one stage. Focus on the topics that match your current priorities.
 
-### 3. Read, reflect, and apply what you learn
+### 3. Explore the resources and put them to use
 
-As you explore each resource, think about how the information relates to your business.
+Each topic may include practical notes, useful tools, templates, or links to additional reading from trusted external sources.
 
-A useful approach is to:
+As you explore the resources:
 
-1. **Read:** Understand the main concepts and recommendations.
-2. **Reflect:** Consider how they apply to your customers, product, or business model.
-3. **Apply:** Identify an action you can take or an idea you can test.
-4. **Record:** Write down your findings, questions, and next steps.
+1. **Understand:** Review the information provided to become familiar with the topic and its key concepts.
+2. **Explore:** Check out the recommended tools, templates, and additional resources that can help you learn more.
+3. **Apply:** Consider how the information relates to your business and use what is relevant to your current challenges.
+4. **Take notes:** Keep track of useful insights, questions, and ideas to discuss with your TechAlliance advisor.
 
-You don't need to have every answer right away. The goal is to build your understanding and make informed decisions as you move forward.
+You don't need to use every resource or explore every external link. Focus on what helps you better understand the topic and make progress toward your business goals.
 
 ### 4. Use the search to find specific topics
 
