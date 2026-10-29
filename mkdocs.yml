@@ -6,33 +6,38 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+
   - Idea Stage:
-    - Main: idea/index.md
-    - Planning: idea/planning.md
-    - Data Room: idea/data-room.md
-    - Elevator Pitch: idea/elevator-pitch.md
-    - Competition Research: idea/competition-research.md
-    - Potential Customer Segments: idea/potential-customer-research.md
+      - Main: idea/index.md
+      - Planning: idea/planning.md
+      - Data Room: idea/data-room.md
+      - Elevator Pitch: idea/elevator-pitch.md
+      - Competition Research: idea/competition-research.md
+      - Potential Customer Segments: idea/potential-customer-research.md
+
   - Discovery Stage:
-    - Main: discovery/index.md
-		- Customer Zoom Tool: discovery/customer-zoom-tool.md
-		- IP Strategy: discovery/ip-strategy.md
-		- Discovery Interviews: discovery/discovery-interviews.md
-		- SME Interviews: discovery/sme-interviews.md
-		- Market Research: discovery/market-research.md
-		- Product Roadmap: discovery/product-roadmap.md
-		- Go-to-Market Plan Draft: discovery/gtm-draft.md
+      - Main: discovery/index.md
+      - Customer Zoom Tool: discovery/customer-zoom-tool.md
+      - IP Strategy: discovery/ip-strategy.md
+      - Discovery Interviews: discovery/discovery-interviews.md
+      - SME Interviews: discovery/sme-interviews.md
+      - Market Research: discovery/market-research.md
+      - Product Roadmap: discovery/product-roadmap.md
+      - Go-to-Market Plan Draft: discovery/gtm-draft.md
+
   - Validation Stage:
-    - Main: validation/index.md
-		- MVP/Pilot Definition: validation/pilot-plan.md
-		- Solution Interviews: validation/solution-interviews.md
-		- Pilot Project: validation/pilot-project.md
+      - Main: validation/index.md
+      - MVP/Pilot Definition: validation/pilot-plan.md
+      - Solution Interviews: validation/solution-interviews.md
+      - Pilot Project: validation/pilot-project.md
+
   - Efficiency Stage:
-    - Main: efficiency/index.md
-	- Sales Assets & Process: efficiency/sales-assets-process.md
-	- Ops & HR Plan: efficiency/ops-hr-plan.md
-	- Cashflow Forecast: efficiency/cashflow-forecast.md
-	- Funding Analysis: efficiency/funding-analysis.md
-	- Funding Plan & Assets: efficiency/funding-plan-assets.md
+      - Main: efficiency/index.md
+      - Sales Assets & Process: efficiency/sales-assets-process.md
+      - Ops & HR Plan: efficiency/ops-hr-plan.md
+      - Cashflow Forecast: efficiency/cashflow-forecast.md
+      - Funding Analysis: efficiency/funding-analysis.md
+      - Funding Plan & Assets: efficiency/funding-plan-assets.md
+
   - Scale Stage:
-    - Main: scale/index.md
+      - Main: scale/index.md
