@@ -3,6 +3,10 @@ site_name: TechAlliance's Knowledge Hub
 theme:
   name: material
 
+  font:
+  text: Inter
+  code: Roboto Mono
+
   logo: assets/images/logo.png
   favicon: assets/images/favicon.png
 
