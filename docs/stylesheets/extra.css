@@ -30,3 +30,7 @@
 .md-typeset a {
   color: #EF4347;
 }
+
+.md-typeset a[href^="http"] {
+  target: _blank;
+}
