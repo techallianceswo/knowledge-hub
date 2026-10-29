@@ -16,7 +16,7 @@ And even though this initial plan can (and will) change as the idea/business evo
 
 Ready?
 
-## Tools
+## Business Tools
 
 ### [Business Model Canvas (BMC)](https://en.wikipedia.org/wiki/Business_model_canvas)
 
@@ -33,3 +33,6 @@ Based on the BMC (above), the Lean Canvas was created by Ash Maurya and uses a s
 Similarly to the BMC, it will allow founders to run strategic planning runs and consequent interactions in a more efficient manner:
 
 ![The Lean Canvas board](/knowledge-hub/assets/images/lean-canvas.png)
+
+## Tech Support
+
