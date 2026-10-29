@@ -20,4 +20,8 @@ Ready?
 
 ### Business Model Canvas (BMC)
 
-Created by Alexander Osterwalder in 2004 and published in the 
+Created by Alexander Osterwalder in 2004 and published in the 2010 book *Business Model Generation*, it served as the catalyst for a movement that led to the lean business era years later.
+
+This tool allows business founders to plan a startup on a single sheet of paper, making the process easier and less bureaucratic.
+
+![The BMC board](/assets/images/bmc.jpg)
