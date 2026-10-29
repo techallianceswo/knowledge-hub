@@ -23,7 +23,7 @@ You don't need to complete every section or follow a specific order. The hub is 
 
 The hub organizes resources around five stages of business development:
 
-- **[Idea](/idea/index.md):** Bring your idea to paper, research the opportunity, and explore the problem you want to solve.
+- **[Idea](/idea/):** Bring your idea to paper, research the opportunity, and explore the problem you want to solve.
 - **Discovery:** Move beyond initial research to investigate and validate the problem through conversations, observations, and evidence.
 - **Validation:** Test your proposed solution, gather customer feedback, and evaluate whether it addresses the problem you've identified.
 - **Efficiency:** Build the business foundations, processes, and systems needed to operate effectively.
