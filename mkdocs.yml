@@ -27,3 +27,12 @@ nav:
 		- MVP/Pilot Definition: validation/pilot-plan.md
 		- Solution Interviews: validation/solution-interviews.md
 		- Pilot Project: validation/pilot-project.md
+  - Efficiency Stage:
+    - Main: efficiency/index.md
+	- Sales Assets & Process: efficiency/sales-assets-process.md
+	- Ops & HR Plan: efficiency/ops-hr-plan.md
+	- Cashflow Forecast: efficiency/cashflow-forecast.md
+	- Funding Analysis: efficiency/funding-analysis.md
+	- Funding Plan & Assets: efficiency/funding-plan-assets.md
+  - Scale Stage:
+    - Main: scale/index.md
