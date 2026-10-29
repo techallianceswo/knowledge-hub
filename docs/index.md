@@ -1,4 +1,4 @@
-# Welcome to TechAlliance's Knowledge Hub
+# Welcome to TechAlliance Knowledge Hub
 
 TechAlliance is Southwestern Ontario's Regional Innovation Centre. We support ambitious founders, technology startups, and scaling companies by connecting them with the expertise, relationships, and opportunities they need to build stronger businesses.
 
