@@ -2,24 +2,41 @@ site_name: TechAlliance's Knowledge Hub
 
 theme:
   name: material
+
   logo: assets/images/logo.png
-  theme:
-  name: material
 
   features:
-    - navigation.sections
     - navigation.expand
+    - navigation.sections
+    - navigation.top
     - content.code.copy
+    - search.highlight
+    - search.suggest
 
   palette:
-    - scheme: default
-      primary: gray
 
+    # Light mode
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+
+    # Dark mode
     - scheme: slate
-      primary: blue
+      primary: custom
+      accent: custom
       toggle:
         icon: material/weather-sunny
-        name: Dark mode
+        name: Light mode
+
+extra:
+  status:
+    new: Recently Added
+
+extra_css:
+  - stylesheets/extra.css
 
 nav:
   - Home: index.md
