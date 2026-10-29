@@ -6,3 +6,11 @@ theme:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Idea Stage:
+    - Main: idea/index.md
+    - Planning: idea/planning.md
+    - Data Room: idea/data-room.md
+    - Elevator Pitch: idea/elevator-pitch.md
+    - Competition Research: idea/competition-research.md
+    - Potential Customer Segments: idea/potential-customer-research.md
+    - 
