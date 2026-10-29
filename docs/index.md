@@ -17,7 +17,7 @@ We work alongside entrepreneurs at every stage of growth, helping them navigate 
 
 The TechAlliance knowledge hub brings together technical knowledge and resources to help you explore important topics, build your understanding, and make more informed decisions as your business grows.
 
-[Explore the resources available to you](knowledge-hub/getting-started), find information relevant to your current challenges, and take your next step with greater clarity.
+[Explore the resources available to you](/knowledge-hub/getting-started), find information relevant to your current challenges, and take your next step with greater clarity.
 
 **Ready to move forward?**
 
