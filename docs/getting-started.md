@@ -24,10 +24,10 @@ You don't need to complete every section or follow a specific order. The hub is 
 The hub organizes resources around five stages of business development:
 
 - **[Idea](/knowledge-hub/idea):** Bring your idea to paper, research the opportunity, and explore the problem you want to solve.
-- **Discovery:** Move beyond initial research to investigate and validate the problem through conversations, observations, and evidence.
-- **Validation:** Test your proposed solution, gather customer feedback, and evaluate whether it addresses the problem you've identified.
-- **Efficiency:** Build the business foundations, processes, and systems needed to operate effectively.
-- **Scale:** Explore opportunities to grow your business, reach new markets, and manage the challenges of expansion.
+- **[Discovery](/knowledge-hub/discovery):** Move beyond initial research to investigate and validate the problem through conversations, observations, and evidence.
+- **[Validation](/knowledge-hub/validation):** Test your proposed solution, gather customer feedback, and evaluate whether it addresses the problem you've identified.
+- **[Efficiency](/knowledge-hub/efficiency):** Build the business foundations, processes, and systems needed to operate effectively.
+- **[Scale](/knowledge-hub/scale):** Explore opportunities to grow your business, reach new markets, and manage the challenges of expansion.
 
 Select a stage from the navigation menu to explore its available topics.
 
