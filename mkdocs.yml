@@ -13,7 +13,7 @@ theme:
 
   palette:
     - scheme: default
-      primary: blue
+      primary: gray
 
     - scheme: slate
       primary: blue
