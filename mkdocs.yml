@@ -3,6 +3,14 @@ site_name: TechAlliance's Knowledge Hub
 theme:
   name: material
   logo: assets/images/logo.png
+  theme:
+  name: material
+
+  features:
+    - navigation.sections
+    - navigation.expand
+    - content.code.copy
+
   palette:
     - scheme: default
       primary: blue
