@@ -24,4 +24,4 @@ Created by Alexander Osterwalder in 2004 and published in the 2010 book *Busines
 
 This tool allows business founders to plan a startup on a single sheet of paper, making the process easier and less bureaucratic.
 
-![The BMC board](/assets/images/bmc.jpg)
+![The BMC board](assets/images/bmc.jpg)
