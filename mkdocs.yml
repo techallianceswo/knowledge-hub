@@ -2,8 +2,6 @@ site_name: TechAlliance's Knowledge Hub
 
 theme:
   name: material
-  features:
-    - navigation.tabs
   logo: assets/images/logo.png
   palette:
     - scheme: default
