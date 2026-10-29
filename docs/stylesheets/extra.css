@@ -3,15 +3,30 @@
   --md-accent-fg-color: #EF4347;
 }
 
+/* Header */
 .md-header {
   box-shadow: none;
 }
 
-.md-typeset a {
+/* Header title */
+.md-header__title,
+.md-header__topic,
+.md-header__button {
+  color: #131314 !important;
+}
+
+/* Current page in left navigation */
+.md-nav__link--active {
+  color: #EF4347 !important;
+  font-weight: 600;
+}
+
+/* Hover state */
+.md-nav__link:hover {
   color: #EF4347;
 }
 
-.md-nav__link--active,
-.md-nav__link:hover {
+/* Content links */
+.md-typeset a {
   color: #EF4347;
 }
