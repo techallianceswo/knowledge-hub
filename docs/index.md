@@ -21,4 +21,4 @@ Explore the resources available to you, find information relevant to your curren
 
 **Ready to move forward?**
 
-Explore the knowledge hub or connect with TechAlliance to discover how our community can support your business.
+Explore the knowledge hub or [connect with TechAlliance](https://www.techalliance.ca/book-a-call/) to discover how our community can support your business.
