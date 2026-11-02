@@ -34,11 +34,9 @@ Similarly to the BMC, it will allow founders to run strategic planning runs and 
 
 ![The Lean Canvas board](/knowledge-hub/assets/images/lean-canvas.png)
 
-### [Project Premortem](https://ashmaurya.com/blog/what-is-lean-canvas)
+### [Project Premortem](https://en.wikipedia.org/wiki/Pre-mortem)
 
-Based on the BMC (above), the Lean Canvas was created by Ash Maurya and uses a slightly different approach: it focuses less on the company and more on potential customers and the product to be built.
-
-Similarly to the BMC, it will allow founders to run strategic planning runs and consequent interactions in a more efficient manner:
+Originally a project risk assessment and planning tool, we can easily use it when planning a new venture (since, of course, those are also projects). It consists of a thought experiment to imagine you're on a future date (usually, six months or one year from now) and that your startup failed. Then, you must list real and reasonable reasons why it failed. From there, you can imagine how you should act now to avoid that "future" failure.
 
 ![The Project Premortem board](/knowledge-hub/assets/images/proj-premortem.webp)
 
