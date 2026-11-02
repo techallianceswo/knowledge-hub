@@ -34,5 +34,25 @@ Similarly to the BMC, it will allow founders to run strategic planning runs and 
 
 ![The Lean Canvas board](/knowledge-hub/assets/images/lean-canvas.png)
 
+### [Project Premortem](https://ashmaurya.com/blog/what-is-lean-canvas)
+
+Based on the BMC (above), the Lean Canvas was created by Ash Maurya and uses a slightly different approach: it focuses less on the company and more on potential customers and the product to be built.
+
+Similarly to the BMC, it will allow founders to run strategic planning runs and consequent interactions in a more efficient manner:
+
+![The Lean Canvas board](/knowledge-hub/assets/images/lean-canvas.png)
+
 ## Tech Support
 
+### [Canvanizer](https://canvanizer.com/)
+
+Free tool that lets users create and export various types of canvases, including BMC and Lean Canvas. Highly recognized in the startup and tech world.
+
+### [Miro](https://miro.com/)
+
+Whiteboard tool with a pretty generous free tier and a plethora of templates to choose from and work for your projects, including BMC and Lean Canvas.
+
+## Knowledge Sources
+
+### [Asana - Project Premortem](https://asana.com/resources/premortem)*
+*Even though this article speaks about the use of the tool for project risk assessment, keep in mind that a venture is also a project.
