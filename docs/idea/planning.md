@@ -20,7 +20,7 @@ Ready?
 
 ### [Business Model Canvas (BMC)](https://en.wikipedia.org/wiki/Business_model_canvas)
 
-Created by Alexander Osterwalder in 2004 and published in the 2010 book *Business Model Generation*, it served as one of the solid foundation stones of the lean business era.
+Created by Alexander Osterwalder in 2004 and published in the 2010 book *Business Model Generation*, it served as one of the cornerstone concepts of the lean business era.
 
 This tool allows business founders to plan a startup on a single sheet of paper, making the process easier and less bureaucratic:
 
@@ -40,7 +40,7 @@ Based on the BMC (above), the Lean Canvas was created by Ash Maurya and uses a s
 
 Similarly to the BMC, it will allow founders to run strategic planning runs and consequent interactions in a more efficient manner:
 
-![The Lean Canvas board](/knowledge-hub/assets/images/lean-canvas.png)
+![The Project Premortem board](/knowledge-hub/assets/images/proj-premortem.webp)
 
 ## Tech Support
 
@@ -50,9 +50,15 @@ Free tool that lets users create and export various types of canvases, including
 
 ### [Miro](https://miro.com/)
 
-Whiteboard tool with a pretty generous free tier and a plethora of templates to choose from and work for your projects, including BMC and Lean Canvas.
+Whiteboard tool with a pretty generous free tier and a plethora of templates to choose from and work for your projects, including BMC, Lean Canvas, and Project Premortem.
 
-## Knowledge Sources
+## Reference Sources
+
+### [BDC - Planning a Business Idea](https://www.bdc.ca/en/articles-tools/start-buy-business/start-business/small-business-ideas-starting-own-business)
+
+### [Atlassian - Business Model Canvas](https://www.atlassian.com/work-management/project-management/business-model-canvas)
+
+### [Miro - Lean Canvas vs. Business Model Canvas](https://miro.com/strategic-planning/lean-canvas-vs-business-model-canvas/)
 
 ### [Asana - Project Premortem](https://asana.com/resources/premortem)*
 *Even though this article speaks about the use of the tool for project risk assessment, keep in mind that a venture is also a project.
