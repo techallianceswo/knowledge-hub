@@ -11,7 +11,7 @@ A **data room** is a structured, access-controlled collection of business docume
 
 While data rooms are commonly associated with fundraising and investor due diligence, the same principles can help you manage your company's knowledge throughout its development.
 
-You don't need to wait until your business is large or preparing for investment to start organizing its information.
+You don't need to wait until your business is large or preparing for investment to start organizing its information (and, in fact, it's highly recommended that you don't wait!).
 
 ## Why does it matter?
 
@@ -169,7 +169,7 @@ The following resources focus primarily on preparing data rooms for investors. T
 
 ### [Pageform - Step-by-step guide to building an investor data room](https://pageform.io/blog/step-by-step-guide-building-an-irresistible-investor-data-room)
 
-### [YouTube - Additional video resource on data rooms](https://www.youtube.com/watch?v=aavc1YdvjRE)
+### [TechAlliance MasterClass - Building Your Data Room](https://www.youtube.com/watch?v=aavc1YdvjRE)
 
 ## Put it into practice
 
