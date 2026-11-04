@@ -281,11 +281,11 @@ Create a spreadsheet using the customer discovery notes template or problem vali
 
 Keep interview records organized and limit access to people who need the information.
 
-### [ChatGPT](https://chatgpt.com/)
+### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)[1]
 
-ChatGPT can help you review an interview guide for leading questions, organize anonymized notes, and identify potential themes across interviews.
+These can help you review an interview guide for leading questions, organize anonymized notes, and identify potential themes across interviews.
 
-It can also help you prepare neutral follow-up questions.
+They can also help you prepare neutral follow-up questions.
 
 However, AI-generated summaries may overlook important details or misinterpret what participants said.
 
@@ -294,6 +294,8 @@ Review the original notes or transcripts before drawing conclusions.
 **AI-generated customer personas or simulated interviews are not substitutes for conversations with real potential customers.**
 
 Avoid sharing identifiable participant information, confidential business details, or interview recordings with AI tools without appropriate consent and safeguards.
+
+[1]: Augure is the only fully Canadian option from this list
 
 ## Reference sources
 
