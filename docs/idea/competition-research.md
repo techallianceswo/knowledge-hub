@@ -142,7 +142,7 @@ Use your findings to identify potential opportunities, but avoid assuming that e
 
 ## Tech support
 
-### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)*
+### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)[^1]
 
 "Traditional" LLM tools can help you organize competitor research, identify potential alternatives, compare publicly available information, and summarize your findings.
 
@@ -150,7 +150,7 @@ When web research is available, you can use it to investigate competitor website
 
 Use the suggested research prompt below as a starting point, and review the sources behind important claims before relying on the results.
 
-* Augure is the only fully Canadian option from this list
+[^1]: Augure is the only fully Canadian option from this list
 
 ### [Perplexity](https://www.perplexity.ai/)
 
