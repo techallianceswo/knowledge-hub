@@ -2,7 +2,7 @@
 
 ## Understand your competition and find opportunities in the market
 
-You have an idea for a business, product, or service. But how are potential customers solving the same problem today?
+You're building on your business idea right now, but how are your potential customers solving the same problem today?
 
 Understanding your competition is an important part of exploring a business opportunity. It helps you learn what solutions already exist, how companies attract customers, and where your idea might offer something different.
 
@@ -295,33 +295,13 @@ Verify important findings using original sources and, whenever possible, complem
 
 Avoid uploading confidential company information or personal customer data to AI tools without appropriate authorization and safeguards.
 
-### [Trustpilot](https://www.trustpilot.com/)
+### [Trustpilot](https://www.trustpilot.com/) / [Capterra](https://www.capterra.com/) / [G2](https://www.g2.com/)
 
-Trustpilot is an online review platform where consumers share experiences with businesses.
+Trustpilot, Capterra, and G2 are online review platforms where consumers share experiences with businesses.
 
-You can use it to explore customer feedback, identify recurring complaints, and understand what customers appreciate about competing companies.
+You can use them to explore customer feedback, identify recurring complaints, and understand what customers appreciate about competing companies.
 
-Look beyond overall ratings. Read individual reviews, consider their dates, and look for consistent themes.
-
-Remember that online reviews may not represent the full customer base.
-
-### [Capterra](https://www.capterra.com/)
-
-Capterra is a software discovery and review platform that helps businesses compare software products.
-
-It can be particularly useful when researching competitors in software and technology markets.
-
-Explore product categories, features, pricing information, and user reviews to understand how different solutions compare.
-
-### [G2](https://www.g2.com/)
-
-G2 is a software review and comparison platform featuring information and feedback about business technology products.
-
-You can use it to identify competing software solutions, explore customer experiences, and compare products within specific categories.
-
-Pay attention to recurring feedback about usability, implementation, support, and product capabilities.
-
-As with other review platforms, consider the number, recency, and relevance of reviews before drawing conclusions.
+Look beyond overall ratings. Read individual reviews, consider their dates, look for consistent themes, and remember that online reviews may not represent the full customer base.
 
 ## Reference sources
 
