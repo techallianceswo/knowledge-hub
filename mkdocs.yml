@@ -60,7 +60,6 @@ nav:
 
   - Discovery Stage:
       - Main: discovery/index.md
-      - Market Research: discovery/market-research.md
       - Discovery Interviews: discovery/discovery-interviews.md
       - SME Interviews: discovery/sme-interviews.md
       - Product Roadmap: discovery/product-roadmap.md
