@@ -185,13 +185,13 @@ This statement helps turn broad market research into a clear hypothesis you can 
 
 ## Tech support
 
-### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)[^1]
+### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)[1]
 
 "Traditional" LLM tools can help you research what is available; they can also help you identify industry reports, demographic information, market trends, and potential sources of demand.
 
 Use the suggested research prompt below to organize your investigation.
 
-[^1]: Augure is the only fully Canadian option from this list
+[1]: Augure is the only fully Canadian option from this list
 
 ### [Perplexity](https://www.perplexity.ai/)
 
