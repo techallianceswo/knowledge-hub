@@ -29,11 +29,31 @@ Different types of intellectual property protect different aspects of a business
 
 Some common examples include:
 
-- **Patents:** Can protect qualifying inventions, including certain products, processes, and technological improvements.
-- **Trademarks:** Help distinguish your goods or services from those of other businesses. They can include names, logos, and other identifying signs.
-- **Copyright:** Can protect original works such as software code, written content, illustrations, and other creative material.
-- **Industrial designs:** Can protect qualifying visual features of a finished product, such as its shape, configuration, or ornamentation.
-- **Trade secrets:** Can protect valuable confidential business information when appropriate measures are taken to keep it secret.
+
+- **Patents:** Can protect qualifying inventions, including certain products, processes, and technological improvements. Examples include:
+  - A new medical device that uses an innovative mechanism to monitor a patient's health.
+  - A novel manufacturing process that reduces material waste.
+  - A new battery technology that improves energy storage efficiency.
+
+- **Trademarks:** Help distinguish your goods or services from those of other businesses. They can include names, logos, and other identifying signs. Examples include:
+  - A distinctive company name used to identify your business's products or services.
+  - A recognizable logo displayed on your products, website, or packaging.
+  - A unique product name used to distinguish your offering from competitors.
+
+- **Copyright:** Can protect original works such as software code, written content, illustrations, and other creative material. Examples include:
+  - Original source code written for a software application.
+  - Photographs, illustrations, or graphics created for your website.
+  - Original training materials, instructional videos, or written guides.
+
+- **Industrial designs:** Can protect qualifying visual features of a finished product, such as its shape, configuration, or ornamentation. Examples include:
+  - The distinctive exterior shape of a wearable technology device.
+  - A unique decorative pattern applied to a consumer product.
+  - The original visual design of a product's casing or enclosure.
+
+- **Trade secrets:** Can protect valuable confidential business information when appropriate measures are taken to keep it secret. Examples include:
+  - A confidential manufacturing formula or production method.
+  - A proprietary algorithm or internal process that provides a competitive advantage and is kept confidential.
+  - A confidential customer pricing model or business strategy that isn't publicly available.
 
 These protections work differently.
 
