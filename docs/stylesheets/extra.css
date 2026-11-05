@@ -15,6 +15,18 @@
   color: #131314 !important;
 }
 
+.md-typeset h1 {
+  font-weight: 800;
+}
+
+.md-typeset h2 {
+  font-weight: 700;
+}
+
+.md-header__title {
+  font-weight: 700;
+}
+
 /* Current page in left navigation */
 .md-nav__link--active {
   color: #EF4347 !important;
