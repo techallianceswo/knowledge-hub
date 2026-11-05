@@ -260,6 +260,8 @@ Remember that the tool should be grounded in real customer interviews, not an im
 
 The goal isn't to create a perfect persona. It's to identify recognizable people whose needs and behaviours can guide your next steps.
 
+![Customer Zoom Tool template](/knowledge-hub/assets/images/czt-template.png)
+
 ### Go-to-market planning canvas
 
 Use a simple planning canvas to bring the main elements of your strategy together.
