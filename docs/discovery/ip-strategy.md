@@ -271,7 +271,7 @@ For important branding decisions, consider obtaining a professional trademark cl
 
 ### [CENGN - How Canadian startups can turn IP into a competitive advantage](https://www.cengn.ca/information-centre/innovation/how-canadian-startups-can-turn-ip-into-a-competitive-advantage/)
 
-### [YouTube - Additional video resource on intellectual property](https://www.youtube.com/watch?v=tn9ioKvUuJA)
+### [TechAlliance Masterclass - Protecting IP Trademark Protecting Your Brand](https://www.youtube.com/watch?v=tn9ioKvUuJA)
 
 ## Put it into practice
 
