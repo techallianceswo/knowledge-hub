@@ -229,24 +229,36 @@ The goal is to learn which approach generates relevant conversations, not simply
 
 ## Business tools
 
-### Customer Zoom Tools
 
-Customer Zoom Tools can help you organize your understanding of customers and explore how to reach them.
+### [Customer Zoom Tool](https://www.movestheneedle.com/blog/understanding-your-customer-doesnt-mean-giving-them-exactly-what-they-ask-for)
 
-Use the relevant tools or exercises to connect your customer research with your GTM planning.
+The Customer Zoom Tool, developed by Moves the Needle, helps you identify specific potential customers rather than relying only on broad market segments or general customer personas.
 
-Focus on questions such as:
+Instead of starting with categories such as age, industry, or company size, the tool encourages you to focus on **the traits and observable behaviours that distinguish people who experience the problem you're trying to solve**.
 
-- Who is the customer?
-- What problem are they trying to solve?
-- How do they currently discover solutions?
-- What influences their purchasing decisions?
-- Which channels might help you reach them?
-- What value should your messaging communicate?
+Using insights from your customer discovery interviews, work through three steps:
 
-Use your customer discovery findings to support your answers.
+1. **Identify distinctive traits:** Think about one person you've interviewed and list at least 10 characteristics that make them relevant to your proposed solution. Select the three most distinctive traits.
+2. **Identify observable behaviours:** List at least 10 actions or habits that could help you recognize someone experiencing the problem. Select the three most distinctive behaviours.
+3. **Describe a specific customer:** Use those traits and behaviours to describe a real person who represents the type of customer you want to reach.
 
-Where evidence is missing, record your assumptions so you can investigate them later.
+Repeat the exercise with other interview participants to explore whether different customer groups share similar problems, traits, and behaviours.
+
+If your business serves multiple customer groups, such as buyers and end users, consider completing a separate exercise for each.
+
+**How does this help your GTM strategy?**
+
+A more specific understanding of your customer can help you decide:
+
+- Where to find people who match your target customer profile
+- Which communities, networks, or organizations they participate in
+- What behaviours might indicate they're experiencing the problem
+- How to make your outreach and messaging more relevant
+- Which customer groups to prioritize during your initial GTM experiments
+
+Remember that the tool should be grounded in real customer interviews, not an imaginary ideal customer.
+
+The goal isn't to create a perfect persona. It's to identify recognizable people whose needs and behaviours can guide your next steps.
 
 ### Go-to-market planning canvas
 
@@ -343,15 +355,17 @@ Where reliable benchmarks are unavailable, establish your own baseline through i
 
 ## Tech support
 
-### [ChatGPT](https://chatgpt.com/)
+### [ChatGPT](https://chatgpt.com/) / [Claude](https://claude.ai/) / [DeepSeek](https://www.deepseek.com/) / [Augure](https://augureai.ca)[1]
 
-ChatGPT can help you organize market research, compare potential GTM channels, draft outreach messages, and create an initial project plan.
+They can help you organize market research, compare potential GTM channels, draft outreach messages, and create an initial project plan.
 
-You can also use it to challenge assumptions and identify questions that need further research.
+You can also use them to challenge assumptions and identify questions that need further research.
 
 AI-generated recommendations should be treated as hypotheses until they're supported by credible sources or real customer evidence.
 
 Use the following prompt as a starting point for researching your initial GTM strategy.
+
+[1]: Augure is the only fully Canadian option from this list
 
 **Suggested AI prompt:**
 
@@ -515,7 +529,22 @@ Keep the system simple enough that your team can maintain it consistently.
 
 ## Reference sources
 
-Your previous research is an important reference for this exercise.
+
+### [Moves the Needle - Understanding your customer doesn't mean giving them exactly what they ask for](https://www.movestheneedle.com/blog/understanding-your-customer-doesnt-mean-giving-them-exactly-what-they-ask-for)
+
+An introduction to the Customer Zoom Tool, including a practical exercise for identifying potential customers through distinctive traits and observable behaviours.
+
+### [HubSpot - What is a Go-to-Market Strategy? GTM Plan Template + Examples](https://blog.hubspot.com/sales/gtm-strategy)
+
+A practical guide to developing a go-to-market strategy, including target customer identification, positioning, sales and marketing approaches, distribution, and planning templates.
+
+### [Shopify - Go-To-Market Strategy: Template and 9 Steps](https://www.shopify.com/ca/blog/go-to-market-strategy)
+
+A step-by-step introduction to building a go-to-market strategy, covering customer research, competition, value propositions, pricing, promotion, distribution channels, and performance measurement.
+
+### Previous Steps
+
+Additionally, previous research is an important reference for this exercise.
 
 Review your competition analysis, potential customer segments research, customer discovery findings, SME interviews, and product roadmap before drafting your GTM strategy.
 
@@ -531,7 +560,7 @@ Start by gathering the research you've completed during the Idea and Discovery s
 
 Then:
 
-1. **Choose your initial customer segment.** Identify the group you believe is most promising and explain why.
+1. **Choose your initial customer segment.** Review your customer discovery interviews and complete the Customer Zoom Tool to identify the distinctive traits and behaviours of the people you want to reach first. Use those findings to refine your target customer profile.
 2. **Define the customer problem.** Summarize the challenge you're addressing and the outcome customers want.
 3. **Draft your value proposition.** Explain the value your proposed solution aims to provide without making unverified claims.
 4. **Identify possible channels.** List the ways you might reach and serve your target customers.
