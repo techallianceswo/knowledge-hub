@@ -224,7 +224,7 @@ Review Miro's available templates, features, and sharing settings to choose an a
 
 ### [Product Talk - Product roadmaps: How the best product teams plan for uncertainty](https://www.producttalk.org/product-roadmaps/)
 
-### [YouTube - Additional video resource on product roadmaps](https://www.youtube.com/watch?v=fg8c5IQGa5I)
+### [TechAlliance Masterclass - Leading Product Teams](https://www.youtube.com/watch?v=fg8c5IQGa5I)
 
 ## Put it into practice
 
