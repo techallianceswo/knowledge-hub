@@ -70,7 +70,7 @@ nav:
       - Main: validation/index.md
       - MVP/Pilot Definition: validation/pilot-plan.md
       - Solution Interviews: validation/solution-interviews.md
-      - Pilot Project: validation/pilot-project.md
+      - Pilot Management: validation/pilot-management.md
 
   - Efficiency Stage:
       - Main: efficiency/index.md
