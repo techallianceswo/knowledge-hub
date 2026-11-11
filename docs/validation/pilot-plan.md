@@ -378,11 +378,9 @@ It can also help you track your pilot budget and responsibilities.
 
 ### [26lights - MVP development done right: A practical guide for startups](https://www.26lights.com/blog/mvp-development-done-right)
 
-A guide to defining an MVP around a meaningful customer problem, prioritizing essential features, aligning development with GTM objectives, and learning from early users.
-
 ### [urlaunched - MVP feature selection: Scope planning for startups](https://www.urlaunched.com/blog/mvp-feature-selection)
 
-An overview of MVP scope planning and feature prioritization approaches, including value-and-effort matrices, the Kano model, and user story mapping.
+### [AgeTech Collaborative -Effective Pilot Planning: Strategies for Success](https://agetechcollaborative.org/insights/effective-pilot-planning-strategies-for-success/)
 
 ## Put it into practice
 
