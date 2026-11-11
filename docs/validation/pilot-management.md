@@ -444,7 +444,13 @@ Create a simple workflow for recording, prioritizing, assigning, and completing 
 
 ## Reference sources
 
-Coming Soon.
+### [26lights - MVP development done right](https://www.26lights.com/blog/mvp-development-done-right)
+
+### [Kromatic - Solution interview](https://kromatic.com/real-startup-book/3-generative-product-research/solution-interview/)
+
+### [The Lean Startup - Principles](https://theleanstartup.com/principles)
+
+### [Strategyzer - Testing Business Ideas](https://www.strategyzer.com/library/testing-business-ideas)
 
 ## Put it into practice
 
