@@ -583,23 +583,11 @@ Miro can help you visualize workflows, map responsibilities, identify bottleneck
 
 ### [Bonusly - The startup's guide to people operations and HR](https://bonusly.com/post/the-startups-guide-to-people-operations-and-hr)
 
-A guide to establishing people management practices in early-stage businesses, including hiring, onboarding, employee engagement, development, and retention.
-
-Use it to think about how to support your current team and prepare for future hires without creating unnecessary HR complexity.
-
 ### [Qubit Capital - The best startup operations strategy for founders](https://qubit.capital/blog/startup-operations-strategy)
 
-An overview of startup operations planning, including responsibilities, operating processes, performance measures, hiring, and preparing the business for growth.
+### [TechAlliance Masterclass - Defining, Redefining and Creating Company Culture with Janet Frood](https://www.youtube.com/watch?v=ObUE6AtjqZ8)
 
-Use it to identify which operational systems and resources matter most to your company. Focus on the practices relevant to your current stage rather than implementing every framework discussed.
-
-### [Video resource - Startup operations and planning](https://www.youtube.com/watch?v=ObUE6AtjqZ8)
-
-An additional video resource for exploring operations planning. Review its content and apply the ideas relevant to your company's operating needs.
-
-### [Video resource - HR and business operations](https://www.youtube.com/watch?v=96ccIroruzs)
-
-An additional video resource to consider while developing your Ops & HR plan. Focus on practical takeaways that support current delivery and future resource planning.
+### [TechAlliance Fireside Chats - The Importance of Operations](https://www.youtube.com/watch?v=96ccIroruzs)
 
 ## Put it into practice
 
