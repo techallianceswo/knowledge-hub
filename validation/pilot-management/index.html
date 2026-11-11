@@ -1,0 +1,2582 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../solution-interviews/">
+      
+      
+        <link rel="next" href="../../efficiency/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.1">
+    
+    
+      
+        <title>Pilot Management - TechAlliance Knowledge Hub</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Manrope:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Manrope";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mvppilot-testing-and-management" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="TechAlliance Knowledge Hub" class="md-header__button md-logo" aria-label="TechAlliance Knowledge Hub" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            TechAlliance Knowledge Hub
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Pilot Management
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="TechAlliance Knowledge Hub" class="md-nav__button md-logo" aria-label="TechAlliance Knowledge Hub" data-md-component="logo">
+      
+  <img src="../../assets/images/logo.png" alt="logo">
+
+    </a>
+    TechAlliance Knowledge Hub
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../getting-started/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Idea Stage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Idea Stage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/planning/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planning
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/data-room/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Data Room
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/elevator-pitch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elevator Pitch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/competition-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competition Research
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../idea/potential-customer-research/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Potential Customer Segments
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery Stage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Discovery Stage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/discovery-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discovery Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/sme-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    SME Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/product-roadmap/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Product Roadmap
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/ip-strategy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    IP Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../discovery/gtm-draft/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Go-to-Market Plan Draft
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Validation Stage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Validation Stage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pilot-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MVP/Pilot Definition
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solution-interviews/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Solution Interviews
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pilot Management
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pilot Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-solution-measure-results-and-decide-what-comes-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test your solution, measure results, and decide what comes next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-with-a-clear-testing-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start with a clear testing plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measure-what-matters-to-your-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measure what matters to your customers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measure what matters to your customers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-product-usage-and-engagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Product usage and engagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-customer-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Customer outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-customer-satisfaction-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Customer satisfaction and feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-commercial-viability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Commercial viability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#track-the-entire-customer-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Track the entire customer experience
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-results-throughout-the-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Review results throughout the test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-improvements-without-losing-track-of-what-youre-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Make improvements without losing track of what you're testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recognize-when-its-time-to-pivot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recognize when it's time to pivot
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recognize when it&#39;s time to pivot">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#persevere-iterate-or-pivot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Persevere, iterate, or pivot?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Business tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mvppilot-testing-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP/Pilot testing dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assumption-and-experiment-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assumption and experiment tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weekly-pilot-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weekly pilot review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-measure-learn-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build-measure-learn loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pivot-decision-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pivot decision framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tech-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tech support
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tech support">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Sheets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Excel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posthog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PostHog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trello" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trello
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reference sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reference sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#26lights-mvp-development-done-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        26lights - MVP development done right
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kromatic-solution-interview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kromatic - Solution interview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-lean-startup-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Lean Startup - Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategyzer-testing-business-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategyzer - Testing Business Ideas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#put-it-into-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Put it into practice
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Efficiency Stage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Efficiency Stage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/sales-assets-process/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sales Assets & Process
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/ops-hr-plan/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ops & HR Plan
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/cash-flow-forecast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cash Flow Forecast
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/funding-analysis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funding Analysis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../efficiency/funding-plan-assets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Funding Plan & Assets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Scale Stage
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Scale Stage
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../scale/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#test-your-solution-measure-results-and-decide-what-comes-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Test your solution, measure results, and decide what comes next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#start-with-a-clear-testing-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Start with a clear testing plan
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#measure-what-matters-to-your-customers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Measure what matters to your customers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Measure what matters to your customers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-product-usage-and-engagement" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Product usage and engagement
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-customer-outcomes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Customer outcomes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-customer-satisfaction-and-feedback" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Customer satisfaction and feedback
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-commercial-viability" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Commercial viability
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#track-the-entire-customer-experience" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Track the entire customer experience
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#review-results-throughout-the-test" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Review results throughout the test
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#make-improvements-without-losing-track-of-what-youre-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Make improvements without losing track of what you're testing
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recognize-when-its-time-to-pivot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recognize when it's time to pivot
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recognize when it&#39;s time to pivot">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#persevere-iterate-or-pivot" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Persevere, iterate, or pivot?
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#business-tools" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Business tools
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Business tools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#mvppilot-testing-dashboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MVP/Pilot testing dashboard
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#assumption-and-experiment-tracker" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assumption and experiment tracker
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weekly-pilot-review" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Weekly pilot review
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build-measure-learn-loop" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build-measure-learn loop
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pivot-decision-framework" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pivot decision framework
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tech-support" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tech support
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tech support">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#google-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Sheets
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-excel" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Excel
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#google-forms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Google Forms
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#posthog" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PostHog
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-clarity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Clarity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#trello" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trello
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-sources" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Reference sources
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Reference sources">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#26lights-mvp-development-done-right" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        26lights - MVP development done right
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#kromatic-solution-interview" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Kromatic - Solution interview
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#the-lean-startup-principles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        The Lean Startup - Principles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#strategyzer-testing-business-ideas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Strategyzer - Testing Business Ideas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#put-it-into-practice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Put it into practice
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mvppilot-testing-and-management">MVP/Pilot testing and management</h1>
+<h2 id="test-your-solution-measure-results-and-decide-what-comes-next">Test your solution, measure results, and decide what comes next</h2>
+<p>You've defined your minimum viable product (MVP) or pilot, identified the customers you want to serve, and started gathering feedback through solution interviews.</p>
+<p>Now it's time to manage your test in a real-world environment.</p>
+<p><strong>MVP and pilot testing</strong> is the process of delivering your initial offering to a defined group of customers, observing how they use it, measuring the value it creates, and using the results to guide your next decisions.</p>
+<p>This goes beyond asking customers what they think about your solution.</p>
+<p>You want to understand what happens when they use it over time.</p>
+<p>Do they return? Does it solve their problem? Are they willing to pay? Can your team deliver the experience reliably?</p>
+<p>The goal is to gather evidence that helps you decide whether to:</p>
+<ul>
+<li><strong>Persevere:</strong> Continue with your current direction because the evidence supports it.</li>
+<li><strong>Iterate:</strong> Improve specific parts of your offering based on what you've learned.</li>
+<li><strong>Pivot:</strong> Make a meaningful change to your approach because important assumptions aren't holding up.</li>
+</ul>
+<p><strong>A successful test isn't necessarily one where everything works. It's one that helps you make a better-informed business decision.</strong></p>
+<h2 id="start-with-a-clear-testing-plan">Start with a clear testing plan</h2>
+<p>Before inviting participants to use your MVP or begin a pilot, revisit your MVP/Pilot definition.</p>
+<p>You should already have an initial understanding of:</p>
+<ul>
+<li>The customer problem you're addressing</li>
+<li>Your target customer segment</li>
+<li>The product or service you're offering</li>
+<li>The essential features or activities included</li>
+<li>The number of participants you want to involve</li>
+<li>Whether participation is free, discounted, or paid</li>
+<li>The duration of the test</li>
+<li>The outcomes you want to achieve</li>
+</ul>
+<p>Turn these decisions into a practical testing plan.</p>
+<p>Identify who will manage the pilot, who will support participants, how you'll collect data, and when you'll review results.</p>
+<p>Make sure participants understand what they're receiving, what is expected of them, and how the test will work.</p>
+<p>If your solution involves sensitive information, physical safety, regulated activities, or other significant risks, address the relevant requirements before testing begins.</p>
+<p>You may also need agreements covering participation, confidentiality, data handling, responsibilities, or payment.</p>
+<h2 id="measure-what-matters-to-your-customers">Measure what matters to your customers</h2>
+<p>It's easy to focus on numbers that look encouraging but don't tell you whether your solution works.</p>
+<p>For example, having 100 people register for a product doesn't necessarily mean those people are receiving value.</p>
+<p>Instead, focus on metrics connected to the problem you're trying to solve.</p>
+<p>If your product is designed to save time, measure whether customers actually save time.</p>
+<p>If it's designed to simplify a process, observe whether customers can complete that process more easily.</p>
+<p>If it's designed to improve business performance, identify which outcomes you can reasonably measure during the test.</p>
+<p>Consider four categories of evidence.</p>
+<h3 id="1-product-usage-and-engagement">1. Product usage and engagement</h3>
+<p>These metrics help you understand whether participants are using your offering.</p>
+<p>Examples include:</p>
+<ul>
+<li><strong>Activation rate:</strong> The percentage of participants who complete a meaningful first action.</li>
+<li><strong>Feature adoption:</strong> The percentage of relevant participants who use a particular feature.</li>
+<li><strong>Usage frequency:</strong> How often participants use the product or service.</li>
+<li><strong>Task completion rate:</strong> The percentage of attempts in which participants successfully complete a defined task.</li>
+<li><strong>Retention:</strong> The percentage of participants who continue using the offering over a defined period.</li>
+</ul>
+<p>Choose metrics that reflect how your solution is intended to be used.</p>
+<p>A product designed for daily use should be evaluated differently from a service customers need only once a month.</p>
+<h3 id="2-customer-outcomes">2. Customer outcomes</h3>
+<p>These metrics help you determine whether your solution delivers meaningful value.</p>
+<p>Examples include:</p>
+<ul>
+<li>Time saved compared with the customer's previous approach</li>
+<li>Reduction in errors or rework</li>
+<li>Improvement in task completion</li>
+<li>Reduction in operating costs</li>
+<li>Increased productivity</li>
+<li>Improvement in a relevant customer experience</li>
+<li>Achievement of a specific business or personal goal</li>
+</ul>
+<p>Where possible, record the customer's starting point before they begin using your solution.</p>
+<p>This gives you something to compare against.</p>
+<p>Be careful about attributing every improvement to your product. Other factors may influence the results.</p>
+<h3 id="3-customer-satisfaction-and-feedback">3. Customer satisfaction and feedback</h3>
+<p>Quantitative metrics tell you what is happening. Customer conversations can help explain why.</p>
+<p>Gather feedback about:</p>
+<ul>
+<li>What customers find useful</li>
+<li>What they find confusing or frustrating</li>
+<li>Which problems remain unresolved</li>
+<li>What prevents them from using the solution more often</li>
+<li>What they would change</li>
+<li>Whether they would continue using it</li>
+</ul>
+<p>You can collect this information through interviews, short surveys, support conversations, and observations.</p>
+<p>Don't rely exclusively on satisfaction ratings.</p>
+<p>A participant may say they're satisfied while rarely using the product.</p>
+<p>Compare what customers say with what they actually do.</p>
+<h3 id="4-commercial-viability">4. Commercial viability</h3>
+<p>If your MVP or pilot involves a commercial offer, begin evaluating whether the business model could work.</p>
+<p>Potential metrics include:</p>
+<ul>
+<li><strong>Paid conversion rate:</strong> The percentage of eligible prospects or participants who become paying customers.</li>
+<li><strong>Revenue:</strong> The money generated during the test.</li>
+<li><strong>Customer acquisition cost (CAC):</strong> The cost of acquiring a paying customer.</li>
+<li><strong>Cost to serve:</strong> The direct resources required to deliver and support the offering.</li>
+<li><strong>Gross margin:</strong> Revenue remaining after the applicable direct costs of delivering the product or service.</li>
+<li><strong>Renewal or continuation rate:</strong> The percentage of eligible customers who continue after the initial period.</li>
+</ul>
+<p>Not every metric will be meaningful during a small pilot.</p>
+<p>For example, CAC calculated from only a few customers may be highly unstable.</p>
+<p>Focus on the information you can reliably collect and avoid drawing broad conclusions from limited data.</p>
+<h2 id="track-the-entire-customer-experience">Track the entire customer experience</h2>
+<p>Your test should help you understand what happens from the moment someone agrees to participate until the pilot ends.</p>
+<p>Consider the following stages:</p>
+<p><strong>Recruitment</strong></p>
+<p>Are you reaching the right participants? What motivates them to join?</p>
+<p><strong>Onboarding</strong></p>
+<p>Can participants get started without unnecessary difficulty?</p>
+<p><strong>First use</strong></p>
+<p>Can they complete the main task and experience the intended value?</p>
+<p><strong>Ongoing use</strong></p>
+<p>Do they continue using the offering? What encourages or prevents them from returning?</p>
+<p><strong>Support</strong></p>
+<p>What questions, problems, or requests arise? How much effort does your team spend helping participants?</p>
+<p><strong>Completion or renewal</strong></p>
+<p>Do participants achieve the desired outcome? Do they want to continue using or paying for the solution?</p>
+<p>Tracking the full experience can help you identify where customers encounter barriers.</p>
+<p>For example, low usage may not mean customers don't value your solution.</p>
+<p>It could mean onboarding is confusing, participants don't understand when to use it, or the product doesn't fit their existing workflow.</p>
+<p>Investigate the cause before deciding what to change.</p>
+<h2 id="review-results-throughout-the-test">Review results throughout the test</h2>
+<p>Don't wait until the pilot ends to evaluate what you've learned.</p>
+<p>Schedule regular reviews to compare actual results with your expectations.</p>
+<p>For a short pilot, a weekly review may be appropriate. Longer or more complex tests may require a different schedule.</p>
+<p>During each review, ask:</p>
+<ul>
+<li>Are participants using the solution as expected?</li>
+<li>Are they experiencing the intended outcomes?</li>
+<li>What problems or complaints have emerged?</li>
+<li>Are there differences between customer segments?</li>
+<li>What have we learned about adoption and willingness to pay?</li>
+<li>Are our original assumptions still reasonable?</li>
+<li>Do we need to change anything before continuing?</li>
+</ul>
+<p>Review both numbers and customer feedback.</p>
+<p>Look for patterns rather than reacting to every individual comment.</p>
+<p>For small samples, examine individual customer experiences as well as averages. A few unusual results can significantly influence the overall numbers.</p>
+<h2 id="make-improvements-without-losing-track-of-what-youre-testing">Make improvements without losing track of what you're testing</h2>
+<p>You may discover problems that need to be fixed during your pilot.</p>
+<p>Some changes, such as resolving a critical bug or addressing a safety issue, shouldn't wait until the test ends.</p>
+<p>Other changes may be better scheduled between testing rounds.</p>
+<p>Before making a significant change, record:</p>
+<ul>
+<li>What problem prompted the change</li>
+<li>What evidence supports it</li>
+<li>What you're changing</li>
+<li>When the change takes effect</li>
+<li>Which participants will experience the new version</li>
+<li>What result you expect</li>
+</ul>
+<p>This helps you understand whether an improvement influenced the outcome.</p>
+<p>For example, if you change your onboarding process halfway through a pilot, compare the experiences of participants who used the original process with those who used the updated version.</p>
+<p>Don't assume that results collected under different conditions are directly comparable.</p>
+<p><strong>Improve the experience when needed, but keep a clear record of what was tested.</strong></p>
+<h2 id="recognize-when-its-time-to-pivot">Recognize when it's time to pivot</h2>
+<p>Not every MVP or pilot will support your original assumptions.</p>
+<p>You may discover that customers don't experience enough value, that the solution is too difficult to adopt, or that a different group of customers responds more positively.</p>
+<p>These findings may indicate that you need to change direction.</p>
+<p>A <strong>pivot</strong> is a meaningful change to an important part of your business approach based on what you've learned.</p>
+<p>A pivot doesn't necessarily mean abandoning your business idea.</p>
+<p>It could involve changing:</p>
+<ul>
+<li><strong>Customer segment:</strong> Serving a different group of customers.</li>
+<li><strong>Customer problem:</strong> Focusing on a different need.</li>
+<li><strong>Solution:</strong> Using a different approach to address the problem.</li>
+<li><strong>Product scope:</strong> Making a different capability the centre of the offering.</li>
+<li><strong>Business model:</strong> Changing how customers pay or how the business generates revenue.</li>
+<li><strong>Distribution or acquisition channel:</strong> Reaching customers through a different approach.</li>
+</ul>
+<p>For example, imagine you've developed a reporting tool for small retailers.</p>
+<p>During testing, you discover that retailers rarely use it, but accounting firms working with those retailers find the reporting functionality valuable.</p>
+<p>That finding might justify investigating accounting firms as a potential customer segment.</p>
+<p>However, one unexpected conversation isn't enough to justify a major change.</p>
+<p>Look for consistent evidence, investigate alternative explanations, and consider what additional testing could help you make the decision.</p>
+<h3 id="persevere-iterate-or-pivot">Persevere, iterate, or pivot?</h3>
+<p>At the end of a testing round, consider three possible directions.</p>
+<p><strong>Persevere</strong></p>
+<p>Continue with your current approach when the evidence suggests that your target customers are receiving meaningful value and the business opportunity remains promising.</p>
+<p>You may still need further validation before scaling.</p>
+<p><strong>Iterate</strong></p>
+<p>Improve your solution when the core problem and approach appear promising, but specific features, workflows, pricing, or processes need adjustment.</p>
+<p><strong>Pivot</strong></p>
+<p>Reconsider a fundamental assumption when repeated evidence suggests that your current approach is unlikely to deliver the intended value or support a viable business.</p>
+<p>Sometimes the evidence is insufficient to choose confidently.</p>
+<p>In that case, define the next experiment needed to resolve the uncertainty rather than forcing a decision.</p>
+<h2 id="business-tools">Business tools</h2>
+<h3 id="mvppilot-testing-dashboard">MVP/Pilot testing dashboard</h3>
+<p>Create a simple dashboard to track the metrics most relevant to your offering.</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Metric</th>
+<th>Baseline</th>
+<th>Target</th>
+<th>Actual result</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Participation</td>
+<td>Active participants</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Activation</td>
+<td>Participants completing the first meaningful action</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Usage</td>
+<td>Relevant usage frequency</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Customer value</td>
+<td>Main outcome achieved</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Experience</td>
+<td>Task completion or usability issues</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Commercial</td>
+<td>Paid conversions or revenue</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Operations</td>
+<td>Cost or effort to serve participants</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>You don't need to track every metric.</p>
+<p>Choose a small set that helps you evaluate your most important assumptions.</p>
+<p>Define each metric clearly so everyone involved understands how it's measured.</p>
+<p>For example:</p>
+<p><strong>Activation rate = (Participants who complete the defined first meaningful action ÷ Eligible participants) × 100</strong></p>
+<p><strong>Task completion rate = (Successfully completed task attempts ÷ Total valid task attempts) × 100</strong></p>
+<p><strong>Paid conversion rate = (Participants who become paying customers ÷ Eligible participants offered a paid conversion) × 100</strong></p>
+<p>Use consistent definitions and time periods when comparing results.</p>
+<h3 id="assumption-and-experiment-tracker">Assumption and experiment tracker</h3>
+<p>Use this tool to connect your original assumptions to the evidence collected during testing.</p>
+<table>
+<thead>
+<tr>
+<th>Assumption</th>
+<th>Test or observation</th>
+<th>Success criteria</th>
+<th>Actual evidence</th>
+<th>Decision</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Customers can complete the core task independently</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>The solution improves their current process</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Participants will continue using the solution</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Customers will consider paying for the offering</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Review the tracker throughout the pilot.</p>
+<p>If an assumption isn't supported, investigate why before deciding what to change.</p>
+<h3 id="weekly-pilot-review">Weekly pilot review</h3>
+<p>Use a recurring review to keep your team focused on learning and improvement.</p>
+<p><strong>1. Review the numbers</strong></p>
+<p>Compare actual results with your targets and previous observations.</p>
+<p><strong>2. Review customer feedback</strong></p>
+<p>Identify recurring problems, requests, and positive experiences.</p>
+<p><strong>3. Investigate differences</strong></p>
+<p>Explore why some participants are more successful or engaged than others.</p>
+<p><strong>4. Identify priorities</strong></p>
+<p>Choose the most important issues to address.</p>
+<p><strong>5. Assign actions</strong></p>
+<p>Record who is responsible for each next step and when it should happen.</p>
+<p><strong>6. Document decisions</strong></p>
+<p>Explain what you've decided, what evidence informed the decision, and what you expect to learn next.</p>
+<p>Keep a record of each review so you can see how your understanding changes over time.</p>
+<h3 id="build-measure-learn-loop">Build-measure-learn loop</h3>
+<p>The <strong>Build-Measure-Learn</strong> framework is a way to improve a solution through repeated experiments.</p>
+<p>It involves three connected activities:</p>
+<ol>
+<li><strong>Build:</strong> Create or adjust the smallest offering or change needed to test an assumption.</li>
+<li><strong>Measure:</strong> Observe how customers respond and collect relevant evidence.</li>
+<li><strong>Learn:</strong> Decide what the evidence means and what to do next.</li>
+</ol>
+<p>The process then repeats.</p>
+<p>For example:</p>
+<p><strong>Build:</strong> Simplify your MVP's onboarding process.</p>
+<p><strong>Measure:</strong> Track whether new participants complete onboarding and reach the first meaningful action.</p>
+<p><strong>Learn:</strong> Determine whether the change improved activation or whether another barrier remains.</p>
+<p>Use the framework to make purposeful changes rather than adding features without a clear reason.</p>
+<h3 id="pivot-decision-framework">Pivot decision framework</h3>
+<p>Before making a significant change, summarize the evidence.</p>
+<table>
+<thead>
+<tr>
+<th>Question</th>
+<th>Your findings</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>What assumption is being challenged?</td>
+<td></td>
+</tr>
+<tr>
+<td>What evidence suggests it isn't holding up?</td>
+<td></td>
+</tr>
+<tr>
+<td>How many relevant customers or situations support the finding?</td>
+<td></td>
+</tr>
+<tr>
+<td>What alternative explanations have we considered?</td>
+<td></td>
+</tr>
+<tr>
+<td>What new direction are we considering?</td>
+<td></td>
+</tr>
+<tr>
+<td>What evidence supports that direction?</td>
+<td></td>
+</tr>
+<tr>
+<td>What would we need to test next?</td>
+<td></td>
+</tr>
+<tr>
+<td>What would it cost to continue versus change direction?</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Use this framework to structure a discussion with your team or TechAlliance advisor.</p>
+<p>A pivot should be a deliberate response to evidence, not simply a reaction to disappointing results.</p>
+<h2 id="tech-support">Tech support</h2>
+<h3 id="google-sheets"><a href="https://sheets.google.com/">Google Sheets</a></h3>
+<p>Google Sheets can help you build a pilot dashboard, track participants, calculate metrics, and maintain an assumption and experiment tracker.</p>
+<p>It can also help you compare results across different testing periods.</p>
+<h3 id="microsoft-excel"><a href="https://www.microsoft.com/en-ca/microsoft-365/excel">Microsoft Excel</a></h3>
+<p>Microsoft Excel can help you organize testing data, analyze results, and create charts showing changes in usage, customer outcomes, or operational performance.</p>
+<h3 id="google-forms"><a href="https://forms.google.com/">Google Forms</a></h3>
+<p>Google Forms can help you collect structured feedback from pilot participants.</p>
+<p>Use short surveys at relevant points in the experience, such as after onboarding or at the end of the pilot.</p>
+<p>Surveys should complement direct observations and usage data rather than replace them.</p>
+<h3 id="posthog"><a href="https://posthog.com/">PostHog</a></h3>
+<p>PostHog provides product analytics tools that can help digital product teams understand user behaviour.</p>
+<p>Depending on your implementation, you may be able to track events such as onboarding completion, feature usage, and customer journeys.</p>
+<p>Define the behaviours you need to measure before implementing analytics.</p>
+<p>Configure data collection with appropriate privacy, consent, and security considerations.</p>
+<h3 id="microsoft-clarity"><a href="https://clarity.microsoft.com/">Microsoft Clarity</a></h3>
+<p>Microsoft Clarity provides tools for understanding how people interact with websites, including heatmaps and session recordings.</p>
+<p>It may help you identify usability issues and areas where users encounter difficulty.</p>
+<p>Review privacy requirements and configure the tool appropriately before collecting visitor interaction data.</p>
+<h3 id="trello"><a href="https://trello.com/">Trello</a></h3>
+<p>Trello can help you manage issues, improvement requests, and tasks that emerge during testing.</p>
+<p>Create a simple workflow for recording, prioritizing, assigning, and completing changes.</p>
+<h2 id="reference-sources">Reference sources</h2>
+<h3 id="26lights-mvp-development-done-right"><a href="https://www.26lights.com/blog/mvp-development-done-right">26lights - MVP development done right</a></h3>
+<h3 id="kromatic-solution-interview"><a href="https://kromatic.com/real-startup-book/3-generative-product-research/solution-interview/">Kromatic - Solution interview</a></h3>
+<h3 id="the-lean-startup-principles"><a href="https://theleanstartup.com/principles">The Lean Startup - Principles</a></h3>
+<h3 id="strategyzer-testing-business-ideas"><a href="https://www.strategyzer.com/library/testing-business-ideas">Strategyzer - Testing Business Ideas</a></h3>
+<h2 id="put-it-into-practice">Put it into practice</h2>
+<p>Manage an MVP or pilot testing round from start to finish.</p>
+<p><strong>Your goal is to collect enough relevant evidence to make an informed decision about your solution and the next steps for your business.</strong></p>
+<p>Start by reviewing your MVP/Pilot definition and solution interview findings.</p>
+<p>Then:</p>
+<ol>
+<li><strong>Confirm your assumptions.</strong> Identify the most important things you need to validate about customer value, usability, adoption, and commercial potential.</li>
+<li><strong>Choose your metrics.</strong> Select a small set of indicators directly connected to those assumptions.</li>
+<li><strong>Record your baseline.</strong> Document how customers currently address the problem and what outcomes they experience, where measurable.</li>
+<li><strong>Prepare the test.</strong> Confirm participants, responsibilities, timelines, onboarding, support, and relevant safeguards.</li>
+<li><strong>Launch the MVP or pilot.</strong> Give participants access to the offering and explain what they can expect.</li>
+<li><strong>Monitor activity.</strong> Track usage, customer outcomes, support needs, and any operational problems.</li>
+<li><strong>Collect feedback.</strong> Speak with participants regularly to understand what is and isn't working.</li>
+<li><strong>Review results.</strong> Hold periodic reviews to compare evidence with your expectations.</li>
+<li><strong>Document changes.</strong> Record improvements made during the test and their potential effects.</li>
+<li><strong>Make a decision.</strong> Determine whether to persevere, iterate, pivot, or conduct another focused experiment.</li>
+</ol>
+<p><strong>At the end of the test, prepare a short summary covering:</strong></p>
+<ul>
+<li>What you intended to validate</li>
+<li>Who participated and how the test was conducted</li>
+<li>What you measured</li>
+<li>What actually happened</li>
+<li>What customers said and did</li>
+<li>Which assumptions were supported or challenged</li>
+<li>What changes were made during the test</li>
+<li>What you recommend doing next</li>
+</ul>
+<p><strong>Before making your next decision, ask yourself:</strong></p>
+<ul>
+<li>Did the solution address the problem we intended to solve?</li>
+<li>Did participants experience measurable value?</li>
+<li>Did they use the solution as expected?</li>
+<li>What prevented some participants from adopting or continuing to use it?</li>
+<li>Did we learn anything meaningful about willingness to pay?</li>
+<li>Can we deliver the offering reliably and at a reasonable cost?</li>
+<li>Which assumptions remain uncertain?</li>
+<li>Do the results support continuing, improving, or changing our approach?</li>
+<li>What is the most important thing we need to test next?</li>
+</ul>
+<p>Consider reviewing your results with your TechAlliance advisor before committing significant resources to further development or growth.</p>
+<p><strong>Remember:</strong> Validation isn't about proving that your original idea was right.</p>
+<p>It's about gathering evidence, learning from real customer behaviour, and making informed decisions about what to build, improve, or change.</p>
+<p>The strongest outcome of an MVP or pilot is a clearer understanding of whether your solution creates meaningful customer value and what your business should do next.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.expand", "navigation.sections", "navigation.top", "content.code.copy", "search.highlight", "search.suggest"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.a5f9d56c.min.js"></script>
+      
+        <script src="../../javascripts/external-links.js"></script>
+      
+    
+  </body>
+</html>
